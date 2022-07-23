@@ -152,7 +152,7 @@ nav .links a:hover{
     background-size: cover;
 }
 .containerSkillsIt, .containerSkillsLive {
-    width: 100%;
+    width: 90%;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -160,6 +160,7 @@ nav .links a:hover{
     margin-top: 50px;
 }
 .containerSkillsIt h1 {
+    width: 10%;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
