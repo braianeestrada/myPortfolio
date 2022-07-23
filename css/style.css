@@ -12,7 +12,7 @@ nav {
     display: flex;
     width: 90%;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 nav h1 {
@@ -21,8 +21,11 @@ nav h1 {
 }
 nav .links {
     font-size: 1em;
-    width: 50%;
+    width: 100%;
     padding: 1.5em;
+}
+nav .links a{
+    color:rgb(19, 119, 191);
 }
 nav .links ul {
     display: flex;
@@ -30,6 +33,13 @@ nav .links ul {
 }
 nav .mail {
     font-size: 1.2em;
+    font-weight: bold;
+}
+nav .links:hover{
+    font-size: 1.1em;
+}
+nav .links a:hover{
+    color: black;
     font-weight: bold;
 }
 /* Estilos del banner */
@@ -79,6 +89,12 @@ nav .mail {
     align-items: center;
     font-weight: bold;
     font-size: 1.5em;
+}
+.vinculosBanner a{
+    color:rgb(19, 119, 191);
+}
+.vinculosBanner a:hover{
+    font-size: 1.6em;
 }
 /* Estilo sobre mi  */
 #about {
@@ -207,6 +223,11 @@ nav .mail {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.cardFormacion:hover{
+    width: 300px;
+    height: 250px;
+
 }
 /* Estilo Proyectos */
 #proyectos {

@@ -14,17 +14,28 @@
     }
 }
 @media screen and (max-width: 768px) {
+    header nav .presentacion{
+        display: none;
+    }
     #banner {
         height: auto;
+    }
+    .tituloPrincipal{
+        font-size: 0.8em;
+    }
+    .bajada{
+        font-size: 0.6em;
     }
     .contenedorTextoBanner > div {
         margin: 1em 0;
     }
     #about {
-        height: auto;
+        height: 100vh;
     }
     #skills {
         height: auto;
+        width: 70%;
+        margin-left: 15%;
     }
     .containerSkillsIt, .containerSkillsLive h1 {
         margin: 0.5em;
@@ -39,18 +50,41 @@
     }
 }
 @media screen and (max-width: 576px) {
+    /* navegacion */
     header {
         height: auto;
     }
+    .menu { 
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        align-items: center; 
+    } 
+    .toggle { order: 1; } 
+
+    .item.button { order: 2; } 
+
+    .item { 
+        width: 100%; 
+        text-align: center; 
+        order: 3; display: none; 
+    } 
+    .item.active { display: block; }
+
+    nav .mail{
+        margin-top: 1em;
+    }
+
     nav {
         display: flex;
-        flex-direction: column;
         height: auto;
         margin: 1em 0;
         padding-bottom: 1em;
+        justify-content: center;
+        align-items: center;
     }
     nav .links {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
     #banner {
@@ -58,13 +92,14 @@
     }
     .foto {
         width: 50%;
+        margin-left: 15%;
     }
     .tituloPrincipal h1 {
-        font-size: 3em;
+        font-size: 2.5em;
         font-weight: bold;
     }
     .bajada h2 {
-        font-size: 1.5em;
+        font-size: 2em;
         font-style: italic;
     }
     .vinculosBanner {
@@ -84,8 +119,12 @@
         height: 100%;
     }
     .textoAbout {
+        flex-direction: column;
         height: auto;
         padding-bottom: 1em;
+    }
+    .textoAbout p{
+        margin: 10px 0;
     }
     .img {
         width: 100%;
