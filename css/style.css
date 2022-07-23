@@ -160,7 +160,7 @@ nav .links a:hover{
     margin-top: 50px;
 }
 .containerSkillsIt h1 {
-    width: 10%;
+    width: auto;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
@@ -219,6 +219,7 @@ nav .links a:hover{
 #formacion h1 {
     font-size: 2em;
     font-weight: bold;
+    color: white;
 }
 .cardFormacion {
     width: 250px;
