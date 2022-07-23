@@ -1,0 +1,354 @@
+/* Estilos generales */
+body, main, header, footer {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+/* Estilos nav */
+header {
+    width: 100%;
+    background-color: #cccccc;
+}
+nav {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+nav .links {
+    font-size: 1em;
+    width: 50%;
+    padding: 1.5em;
+}
+nav .links ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav .mail {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* Estilos del banner */
+#banner {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.foto {
+    width: 30%;
+}
+.foto img {
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: black;
+}
+.contenedorTextoBanner {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+.tituloPrincipal h1 {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 4em;
+    font-weight: bold;
+}
+.bajada h2 {
+    font-size: 2em;
+    font-style: italic;
+}
+.vinculos {
+    width: 100%;
+}
+.vinculosBanner {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+/* Estilo sobre mi  */
+#about {
+    width: 100%;
+    height: 100vh;
+    background-color: #cccccc;
+}
+.sobreMi {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+.sobreMi h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.textoAbout {
+    width: 90%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    padding-top: 2em;
+}
+.textoAbout p {
+    margin: 0 1em;
+}
+/* Estilo skills */
+#skills {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerSkillsIt, .containerSkillsLive {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.containerSkillsIt h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.containerSkillsLive h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.skillsIt, .skillsLive {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardSkill {
+    width: 150px;
+    height: 150px;
+    background-color: #bbbbbb;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content:center;
+    align-items: center;
+}
+.cardSkill p {
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
+
+
+/* Estilo Formación */
+#formacion {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cccccc;
+}
+.containerFormacion {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#formacion h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.cardFormacion {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardFormacion p {
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 1em;
+} 
+.formacionDelante {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Estilo Proyectos */
+#proyectos {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#proyectos h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em;
+    text-align: center;
+}
+.cardProject {
+    width: 80%;
+    margin: 0 auto;
+    align-items: flex-start;
+    display: flex;
+    padding: 4em 0;
+    align-items: center;
+}
+.cardProject .img {
+    width: 50%;
+    margin-right: 2em;
+}
+.cardProject .descripcion {
+    display: flex;
+    flex-direction: column;
+}
+.cardProject h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+.cardProject .botones {
+    margin-top: 1em;
+}
+.cardProject .botones .github {
+    border: none;
+    background-color: rgb(19, 119, 191);
+    width: 12em;
+    height: 3em;
+    margin-right: 1em;   
+    border-radius: 3px; 
+}
+.cardProject .botones .github a {
+    text-decoration: none;
+    color: white;
+}
+.cardProject .botones .github:hover {
+    background-color: #cccccc;
+    font-weight: bold;
+}
+.cardProject .botones .demo {
+    border: none;
+    background-color: white;
+    color: rgb(19, 119, 191);
+    border: 2px solid rgb(19, 119, 191);
+    width: 12em;
+    height: 3em;
+    margin-right: 1em;    
+    border-radius: 3px;
+}
+.cardProject .botones .demo a {
+    text-decoration: none;
+    color: rgb(19, 119, 191);
+}
+.cardProject .botones .demo:hover {
+    background-color: #cccccc;
+    color: black;
+    font-weight: bold;
+}
+.cardProjectIzq {
+    width: 80%;
+    margin: 0 auto;
+    align-items: flex-end;
+    display: flex;
+    padding: 2em;
+    align-items: center;
+}
+.cardProjectIzq .img {
+    width: 50%;
+    margin-left: 2em;
+}
+.cardProjectIzq .descripcion {
+    display: flex;
+    flex-direction: column;
+}
+.cardProjectIzq h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+.cardProjectIzq .botones {
+    margin-top: 1em;
+}
+.cardProjectIzq .botones .github {
+    border: none;
+    background-color: rgb(19, 119, 191);
+    color: white;
+    width: 12em;
+    height: 3em;
+    margin-right: 1em;
+    text-decoration: none;    
+    border-radius: 3px;
+}
+.cardProjectIzq .botones .github a {
+    text-decoration: none;
+    color: white;
+}
+.cardProjectIzq .botones .github:hover {
+    background-color: #cccccc;
+    color: black;
+    font-weight: bold;
+}
+.cardProjectIzq .botones .demo {
+    border: none;
+    background-color: white;
+    color: rgb(19, 119, 191);
+    border: 2px solid rgb(19, 119, 191);
+    width: 12em;
+    height: 3em;
+    margin-right: 1em;    
+    border-radius: 3px;
+}
+.cardProjectIzq .botones .demo a {
+    text-decoration: none;
+    color: rgb(19, 119, 191);
+}
+.cardProjectIzq .botones .demo:hover {
+    background-color: #cccccc;
+    color: black;
+    font-weight: bold;
+}
+/* Estilo Footer  */
+footer {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding-top: 2em;
+    background-color: black;
+    color: white;
+}
